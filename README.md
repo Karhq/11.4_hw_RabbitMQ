@@ -10,7 +10,7 @@
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
 #### Ответ:   
-![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/1.1.png)
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/.png)
 ---
 
 ### Задание 2. Отправка и получение сообщений
@@ -33,6 +33,8 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 #### Ответ:  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%202.1.png)
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%202.2.png)
 
 ---
 
