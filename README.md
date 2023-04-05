@@ -10,7 +10,7 @@
 *Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.*
 
 #### Ответ:   
-![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/.png)
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%201.png)
 ---
 
 ### Задание 2. Отправка и получение сообщений
