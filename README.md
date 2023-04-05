@@ -70,3 +70,24 @@ $ rabbitmqadmin get queue='hello'
 После чего попробуйте отключить одну из нод, желательно ту, к которой подключались из скрипта, затем поправьте параметры подключения в скрипте consumer.py на вторую ноду и запустите его.
 
 *Приложите скриншот результата работы второго скрипта.*
+
+#### Ответ:  
+
+Объединяем ноды в кластер, с подключенной политикой   
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.png)  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.2.png)  
+
+Вывод команды rabbitmqctl cluster_status на обоих нодах 
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.3.png)  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.4.png)  
+
+Вывод команды на каждой из нод, команды rabbitadmin get queue='hello'
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.5.png)  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.6.png)  
+
+Запускаем на одной из нод скрипт producer.py  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.7.png)  
+
+Выключаем ноду и запускаем скрипт consumer.py
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.9.png)  
+![Скрин](https://github.com/Karhq/11.4_hw_RabbitMQ/blob/main/Задание%203.8.png)  
